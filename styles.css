@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url("wallpaper.jpeg");
+    background-size: cover;
+}
+.container{
+    width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+
+}
+.inputs{
+       padding:2rem 0 2rem 0;
+       text-align: center;
+       justify-content: center;
+       background: rgb(224,190,190,0.5);
+       height: 150px;
+       border-radius: 1rem;
+}
+.inputs input[type="text"]{
+    height:2rem;
+    width: 20rem;
+    border-radius: 0.75rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:10px;
+    border:none;
+    background-color: transparent;
+    border:2px solid #473939;
+    margin-right: 0.5rem;
+}
+.inputs input[type="submit"]{
+    height:3rem;
+    width:5.9rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border:none;
+    border:2px solid #473939;
+    border-radius: 0.75rem;
+    margin-left:1rem;
+    margin-top:20px;
+    background: rgb(224,190,190,0.5);;
+    color:white;
+}
+.inputs input[type="submit"]:hover{
+    background: rgba(2, 57, 37, 0.7);
+    cursor: pointer;
+}
+.display{
+    text-align: center;
+    width:600px;
+    color:olive;
+}
+.wrapper{
+    margin:0 9rem;
+    background-color: rgb(172,189,221,0.5);
+    height:45vh;
+    margin:50px auto;
+    border-radius: 0.5rem;
+}
+.wrapper h2{
+    padding:5px 0;
+    text-align: center;
+    background-color: #000;
+    border-radius: 0.5rem 0.5rem 0 0;
+    color:white;
+}
+.wrapper p{
+    margin:20px 50px;
+    margin-right: 20px;
+    text-align: left;
+    color:#04214c;
+    font-size: 23px;
+     
+}
+.wrapper h2 span{
+    font-size: 26px;
+    color:#9beefb;
+}
+.wrapper p span{
+    color:#473939;
+    font-size: 25px;;
+}
